@@ -1,0 +1,17 @@
+{
+  "name": "tracywebtech-puias",
+  "version": "0.1.0",
+  "author": "tracywebtech",
+  "summary": "Puias Repositories configuration for RedHat family",
+  "license": "Apache 2.0",
+  "source": "https://github.com/TracyWebTech/puppet-puias",
+  "project_page": "https://github.com/TracyWebTech/puppet-puias",
+  "issues_url": "https://github.com/TracyWebTech/puppet-puias/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_range": ">= 1.0.0"
+    }
+  ]
+}
+
