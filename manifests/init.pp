@@ -38,14 +38,14 @@ class puias {
       name    => 'puias_addons',
       descr   => 'PUIAS addons Base $releasever - $basearch',
       baseurl => 'http://puias.princeton.edu/data/puias/$releasever/$basearch/os/Addons',
-      require => Yumrepo['PUIAS_6_core_Base', 'PUIAS_6_core_Updates'],
+      require => Yumrepo['PUIAS_core_Base', 'PUIAS_core_Updates'],
     }
 
     yumrepo { 'PUIAS_addons_Updates':
       name    => 'puias_addons_updates',
       descr   => 'PUIAS addons Updates $releasever - $basearch',
       baseurl => 'http://puias.princeton.edu/data/puias/updates/$releasever/en/addons/$basearch',
-      require => Yumrepo['PUIAS_6_core_Base', 'PUIAS_6_core_Updates'],
+      require => Yumrepo['PUIAS_core_Base', 'PUIAS_core_Updates'],
     }
 
     ###############################
